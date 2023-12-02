@@ -19,6 +19,6 @@ select distinct language_id as language from film;
 -- Find out how many stores does the company have?
 select count(store_id) as store_count from store;
 -- Find out how many employees staff does the company have?
-select count(*) as staff_count from staff;
+select count(staff_id) as staff_count from staff;
 -- Return a list of employee first names only?
 select first_name from staff;
